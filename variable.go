@@ -37,12 +37,11 @@ func main(){
 	//multiple variable 
 
 	//one line
-	var a,b,c string= "herdo", "dimas", "pratirto"
+	var a,b,c string= "herdo ", "dimas ", "pratirto"
 
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(c)
+	fmt.Print(a, b, c)
 
+	fmt.Print("\n")
 	//in block
 	var (
 		angka1 int = 1
@@ -51,8 +50,11 @@ func main(){
 	)
 	angka3 = 4 //change value of angka3 from 3 to 4
 
-	fmt.Println(angka1)
-	fmt.Println(angka2)
-	fmt.Println(angka3)
+	fmt.Println(angka1, angka2, angka3)
+
+	// write the output can using Print(), Println(), and printf()
+	// Print() is default horizontal output, Println() is output with new line, and Printf() is given formating verbs
+	// Printf() can print the formating verbs like %V for value, %T for data type, and others
+	// we can using Print() with new line, example : Print("herdo\n") or Print("1", "\n")
 	
 }
