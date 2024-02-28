@@ -3,7 +3,19 @@ import "fmt"
 
 func main(){
 
-	//type on go : int, float32, string, bool
+	// type on go : int, float32, string, bool
+	// two type of variable, var and const. var changeable, and const unchangeable
+	// const variable can declare outside func main. 
+	// example of const :
+
+	const nametrue string = "nateguy"
+	// nametrue string = "nategame" 
+	// error
+
+	//fmt.println(nametrue)
+	// output is nateguy and unchangeable value
+
+
 
 	//type string
 	var name1 string= "herdo"
@@ -37,6 +49,7 @@ func main(){
 		angka2 int = 2
 		angka3 int = 3
 	)
+	angka3 = 4 //change value of angka3 from 3 to 4
 
 	fmt.Println(angka1)
 	fmt.Println(angka2)
