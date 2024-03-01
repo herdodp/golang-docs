@@ -37,6 +37,21 @@ func main(){
 	}
 
 
+	//example 5. print value of array
+	var nama = []string{"herdo", "dimas", "pratirto"}
+
+	//without index
+	for _, val := range nama{
+		fmt.Println(val)
+	}
+
+	//with index
+	for idx, val := range nama {
+		fmt.Println(idx, val)
+	}
+
+
+
 
 
 
