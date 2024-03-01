@@ -33,6 +33,26 @@ func kalijumlah(angka1 int, angka2 int)(hasil int, result string){
 }
 
 
+//example for recursion
+func testcount(x int) int {
+	if x == 11 {
+	  return 0
+	}
+	fmt.Println(x)
+	return testcount(x + 1)
+  }
+
+
+//example 2 for recursion
+func count(i int)int{
+	if i == 10{
+		return 0
+	}
+	fmt.Println(i)
+	return count(i + 1)
+}
+
+
 
 
 
@@ -62,8 +82,22 @@ func main(){
 	fmt.Println(total)
 	*/
 	
+	/*
+	example for multiple return
 	cetak, hasil := kalijumlah(10,10)
 	fmt.Println(cetak, hasil)
+	*/
 
+	/*
+	example 1 for recursion 
+	testcount(1)
+	*/
+
+	/*
+	example 2 for recursion
+	count(1)
+	*/
+
+	
 
 }
